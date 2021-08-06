@@ -1,0 +1,21 @@
+label{
+    color: black;
+    background-color: orangered;
+    font-size: larger;
+    font-weight: 100;
+}
+
+body{
+    background-image: url(img/fondo.jpg);
+}
+
+form{
+    text-align: left;
+    margin-top: 230px;
+    margin-left: 35%;
+}
+
+*{
+    font-family: 'Staatliches', cursive;
+    font-size: large;
+}

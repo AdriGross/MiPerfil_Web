@@ -1,32 +1,174 @@
+*{
+    font-family: 'Staatliches', cursive;
+}
+
+.section{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.sect1{
+    background-image: url(img/portada.jpg);
+    padding-top: calc(50 vh - 50 px);
+}
+
+header{
+    text-align: center;
+    line-height: 600px;
+    font-size: 150px;
+    color: white;
+}
+
 h1{
-    color: blue;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    background-color: bisque;
+    color:white;   
+    font-size: large;
+    text-align: center;
+    font-size: xx-large;
 }
 h2{
-    color: red;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
-    background-color: antiquewhite;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
 }
+
+.sobremi{
+    margin-top: 100px;
+}
+
+#descripcion{
+    text-align: center;
+    color: white;
+}
+
 p{
-    color: black;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
+    column-count: 3;
+    text-align: justify;
+    font-size: large;
 }
 ol{
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-}
-ul{
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-}
-label{
     color: white;
-    background-color: darkblue;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: larger;
-    font-weight: 100;
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    padding: 5px;
 }
+
+.lista1{
+    float:left;    
+}
+
+.lista2{
+    float: left;
+}
+
+div{
+    margin-top:100px;
+}
+
+.series{
+    width: 200px;;
+    height: 150px; 
+    inline-size: 250px;
+}
+
+ul{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.peliculas{
+    width: 200px;;
+    height: 150px; 
+    inline-size: 250px;
+}
+
+
+#mifoto{
+    width: 260px;
+    display:block;
+    margin:auto;
+    transform: scale(0.9);
+    transition: all 1s ease; 
+}
+
+#mifoto:hover{
+    border-radius: 30px;
+    cursor:pointer;
+    transform: scale(1);     
+} 
+
+
+
+body{
+    margin: auto;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #c2681f;
+}
+
+h3{
+    color: white;
+    margin-top: 100px;
+    font-size: x-large;
+}
+
+.form{
+    background-color: orangered;
+    color: red;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: solid 2%;
+}
+
+.form:hover{
+    background-color: orange;
+    
+}
+
+div#imagen {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-image: url(img/saludo.jpg);
+    margin: 30px auto;
+}
+
+div#texto {
+  position:absolute;
+  overflow:hidden;
+  width: 300px;
+  height: 45px;
+  background-color: rgba(255, 255, 255, 0.9);
+  opacity:0;
+  transition: opacity 0.3s;
+}
+
+div#imagen:hover div#texto {
+  opacity:1;
+}
+
+h4 {
+  position: absolute;
+  font-size: 1.5rem;
+  margin-left: -75px;
+  margin-top: 7px;
+  transition: margin-left 0.3s;
+}
+
+div#imagen:hover h4 {
+  margin-left: 50px;
+}
+
+
